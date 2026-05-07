@@ -26,6 +26,11 @@ This project automates the extraction of daily gold futures data (GC=F) from Yah
    git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git)
 
    
-1. Clone this repository to your local machine:
-   ```bash
-   git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git)
+2. Install the required dependencies:
+pip install yfinance prophet pandas numpy
+
+
+3. Run the script. For the best results, execute this daily to keep your local database updated and to generate tomorrow's forecast:
+python altin_gunluk.py
+
+Note: If you have historical data, you can place it in the same directory as altin_fiyat.csv before the first run, and the script will automatically process and format it for future predictions.
