@@ -23,7 +23,7 @@ This project automates the extraction of daily gold futures data (GC=F) from Yah
 
 1. Clone this repository to your local machine:
    ```bash
-   git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git)
+   git clone [https://github.com/semihkpln/gold_prediction_system.git](https://github.com/semihkpln/gold_prediction_system.git)
 
    
 2. Install the required dependencies:
