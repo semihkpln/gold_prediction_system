@@ -1,0 +1,4 @@
+yfinance
+prophet
+pandas
+numpy
